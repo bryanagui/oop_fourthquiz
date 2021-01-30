@@ -14,5 +14,6 @@ while trials < 3:
         trials += 1
         if trials == 3:
             print("You lost.")
+            print("The Letter:", rand_letter)
         else:
             print("Oops! That's incorrect. Try again!")
